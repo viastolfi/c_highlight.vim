@@ -4,7 +4,7 @@ hi default link cStdFunction cFunction
 syn match cFunctionCall /\<[a-zA-Z_]\w*\>\ze\s*(/
 hi default link cFunctionCall cFunction
 
-syn match cCustomType /\<[a-z_]\w*\>\ze\*\?\s\+\*\?[a-z_]\w*/
+syn match cCustomType /\<[a-zA-Z_]\w*\>\ze\*\?\s\+\*\?[a-zA-Z_]\w*/
 hi default link cCustomType cType
 
 syn match cTypeCast /\<[a-zA-Z_]\+_t\>/ contained containedin=cParenGroup
